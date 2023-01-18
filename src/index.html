@@ -6,10 +6,19 @@
     <title>Alma - Minimalist Multi-Use WordPress Theme</title>
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="sass/styles.scss">
-    <script type="module" src="app.js"></script>
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <div id="app"></div>
+    <script type="module">
+      import { render } from './app.js'
+      import Navbar from './components/Navbar.js'
+      import Header from './components/Header.js'
+      
+      render(`
+        ${ Navbar }
+        ${ Header }
+      `)
+    </script>
   </body>
 </html>
 
