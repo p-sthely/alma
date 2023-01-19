@@ -1,7 +1,12 @@
-import listItems from '../js/navbar.js'
-import { TOGGLER_ICON } from '../js/constants.js'
+export default function Navbar ( props ) {
+  let listItems = ''
 
-export default function Navbar(message) {
+  for ( const item of props.NAVBAR_LINKS ) {
+    listItems += `
+      <li class="list__item"><a class="link" href="${ item.href }">${ item.value }</a></li>
+    `
+  }
+
   return (`
     <div class="navbar">
       <ul class="list">
@@ -9,7 +14,7 @@ export default function Navbar(message) {
       </ul>
       <div class="toggler">
         <a class="link" href="#">
-          ${ TOGGLER_ICON }
+          ${ props.TOGGLER_ICON }
         </a>
       </div>
     </div>

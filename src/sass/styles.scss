@@ -15,9 +15,16 @@
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   border: solid thin black;
+  
+  @media(min-width: 768px) {
+    justify-content: center;
+  }
   
   .list {
     visibility: hidden;
