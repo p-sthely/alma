@@ -16,9 +16,31 @@
 
 .navbar {
   display: flex;
+  justify-content: space-between;
+  border: solid thin black;
+  
+  .list {
+    visibility: hidden;
+    
+    @media(min-width: 768px) {
+      visibility: visible;
+    }
+  }
   
   .toggler {
-    display: block;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    svg {
+      width: 1.5em;
+      height: 1.5em;
+    }
+    
+    @media(min-width: 768px) {
+      display: none;
+    }
   }
 }
 

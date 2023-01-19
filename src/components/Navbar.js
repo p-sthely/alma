@@ -1,11 +1,18 @@
-export default (`
-<div class="navbar">
-  <ul class="list">
-    <li class="list__item"><a class="link" href="#">First item</a></li>
-    <li class="list__item"><a class="link" href="#">Second item</a></li>
-    <li class="list__item"><a class="link" href="#">Third item</a></li>
-  </ul>
-  <a class="link toggler" href="#">Toggler</a>
-</div>
-`)
+import listItems from '../js/navbar.js'
+import { TOGGLER_ICON } from '../js/constants.js'
+
+export default function Navbar(message) {
+  return (`
+    <div class="navbar">
+      <ul class="list">
+        ${ listItems }
+      </ul>
+      <div class="toggler">
+        <a class="link" href="#">
+          ${ TOGGLER_ICON }
+        </a>
+      </div>
+    </div>
+  `)
+}
 

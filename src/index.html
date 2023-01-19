@@ -11,13 +11,9 @@
     <div id="app"></div>
     <script type="module">
       import { render } from './app.js'
-      import Navbar from './components/Navbar.js'
-      import Header from './components/Header.js'
+      import Home from './pages/Home.js'
       
-      render(`
-        ${ Navbar }
-        ${ Header }
-      `)
+      render(Home)
     </script>
   </body>
 </html>
