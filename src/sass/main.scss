@@ -1,3 +1,11 @@
+// libs
+@import 'libs/vars';
+@import 'libs/functions';
 @import 'libs/mixins';
+
+// base
+@import 'base/page';
+
+// components
 @import 'components/navbar';
 
