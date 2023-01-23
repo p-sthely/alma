@@ -1,4 +1,5 @@
 export const NAVBAR = {
+  NAVBAR_BRAND: 'Navbar',
   NAVBAR_LINKS: [
     { value: 'First item', href: '#' },
     { value: 'Second item', href: '#' },
