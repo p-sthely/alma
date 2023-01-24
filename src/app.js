@@ -1,7 +1,6 @@
 //import all of Bootstrap's JS
 import * as bootstrap from 'bootstrap'
 
-
 //import just what we need
 
 // If you're importing tooltips or popovers, be sure to include our Popper.js dependency
