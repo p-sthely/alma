@@ -13,9 +13,9 @@ npm install
 npm run start
 ```
 
-The server is available at [](localhost:1234)
+The server is available at localhost:1234
 
 ## Vercel
 
-This project is hosted on Vercel [](https://alma-eosin.vercel.app/)
+This project is hosted on Vercel https://alma-eosin.vercel.app/
 
