@@ -1,0 +1,12 @@
+extends layouts/baseof.pug
+
+block title
+  title Homepage - Philippe Sthely
+
+block content
+  script(type='module').
+    import { render } from './app.js'
+    import Home from './pages/Home.js'
+    
+    render ( Home )
+

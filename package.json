@@ -2,7 +2,7 @@
   "name": "alma",
   "version": "1.0.0",
   "description": "",
-  "source": "src/index.html",
+  "source": "src/index.pug",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-pug": "^2.8.2",
     "@parcel/transformer-sass": "^2.8.2",
     "parcel": "^2.8.2"
   },
