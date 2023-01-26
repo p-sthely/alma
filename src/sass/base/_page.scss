@@ -1,6 +1,14 @@
-body {
-  font-family: _font(family-base);
-  font-size: _font(size-base);
-  color: _font(color-base);
+:root {
+  //--bs-body-color-rgb: 33,37,41;
+  //--bs-body-bg-rgb: 255,255,255;
+  --bs-font-sans-serif: 'Open Sans', 'Arial', sans-serif;
+  //--bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  //--bs-gradient: linear-gradient(180deg,#ffffff26,#fff0);
+  //--bs-body-font-family: var(--bs-font-sans-serif);
+  //--bs-body-font-size: 1rem;
+  //--bs-body-font-weight: 400;
+  //--bs-body-line-height: 1.5;
+  //--bs-body-color: #212529;
+  //--bs-body-bg: #fff;
 }
 
