@@ -8,7 +8,8 @@ export const NAVBAR = {
   },
   nav: [
     { value: 'Home', href: '#' },
-    { value: 'Link', href: '#' },
+    { value: 'Demos', href: '#' },
+    { value: 'Features', href: '#' },
     {
       value: 'Dropdown',
       href: '#',

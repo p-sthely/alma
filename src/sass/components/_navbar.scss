@@ -28,10 +28,15 @@
   //justify-content: space-between;
   //align-items: center;
   //display: flex;
-  //position: relative;
+  position: sticky;
+  background-color: var(--bs-body-bg);
   
   &-toggler {
     border: none;
+  }
+  
+  .container-fluid {
+    justify-content: end;
   }
 }
 

@@ -21,6 +21,21 @@ export default (`
         Title ( SECTION.second.title )
       ])
     }
+    ${ Section ([
+        Image ( SECTION.second.image ),
+        Title ( SECTION.second.title )
+      ])
+    }
+    ${ Section ([
+        Image ( SECTION.second.image ),
+        Title ( SECTION.second.title )
+      ])
+    }
+    ${ Section ([
+        Image ( SECTION.second.image ),
+        Title ( SECTION.second.title )
+      ])
+    }
   </div>
 `)
 
