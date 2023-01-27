@@ -22,3 +22,7 @@ export const NAVBAR = {
   ]
 }
 
+export const SECTION = {
+  
+}
+
