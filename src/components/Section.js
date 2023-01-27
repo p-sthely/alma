@@ -4,14 +4,12 @@ export default function Section ( components ) {
   
   for ( const item of components ) {
     layout += `
-      <div>
         ${ item }
-      </div>
     `
   }
   
   return (`
-    <section class="section border">
+    <section class="section">
       ${ layout }
     </section>
   `)

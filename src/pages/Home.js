@@ -4,11 +4,12 @@ import Title from '../components/Title.js'
 import Paragraph from '../components/Paragraph.js'
 import Button from '../components/Button.js'
 import Image from '../components/Image.js'
-import { NAVBAR } from '../js/props.js'
+import Footer from '../components/Footer.js'
+import { NAVBAR, FOOTER } from '../js/props.js'
 import { SECTION } from '../js/props.home.js'
 
 export default (`
-  <div>
+  <div class="container-fluid d-flex flex-column justify-content-between min-vh-100 p-0">
     ${ Navbar ( NAVBAR ) }
     ${ Section ([
         Title ( SECTION.first.title ),
@@ -21,21 +22,7 @@ export default (`
         Title ( SECTION.second.title )
       ])
     }
-    ${ Section ([
-        Image ( SECTION.second.image ),
-        Title ( SECTION.second.title )
-      ])
-    }
-    ${ Section ([
-        Image ( SECTION.second.image ),
-        Title ( SECTION.second.title )
-      ])
-    }
-    ${ Section ([
-        Image ( SECTION.second.image ),
-        Title ( SECTION.second.title )
-      ])
-    }
+    ${ Footer ( FOOTER ) }
   </div>
 `)
 

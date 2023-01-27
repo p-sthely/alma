@@ -27,3 +27,7 @@ export const SECTION = {
   
 }
 
+export const FOOTER = {
+  copyright: 'Copyright © 2023 Philippe Sthely'
+}
+
