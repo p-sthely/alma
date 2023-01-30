@@ -3,6 +3,9 @@ extends layouts/baseof.pug
 block title
   title Philippe Sthely's blog - Homepage
 
+block append stylesheet
+  link(rel='stylesheet' href='/src/sass/pages/_home.scss')
+
 block content
   script(type='module').
     import { render } from './app.js'

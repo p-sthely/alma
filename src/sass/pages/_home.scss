@@ -1,0 +1,22 @@
+.section {
+  
+  &-first {
+    background-size: cover;
+    background-image: url('https://preview.naapo.net/alma/wp-content/uploads/2020/07/intro-alma.jpg');
+    min-height: 50vh;
+    
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-grow: 1;
+      background-color: rgba(0,0,0,.6);
+      
+      h2 {
+        font-size: calc(var(--bs-body-font-size) * 4 );
+      }
+    }
+  }
+}
