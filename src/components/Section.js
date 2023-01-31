@@ -1,4 +1,4 @@
-export default function Section ( components ) {
+export default function Section ( classes, components ) {
 
   let layout = ''
   
@@ -9,8 +9,10 @@ export default function Section ( components ) {
   }
   
   return (`
-    <section class="section">
-      ${ layout }
+    <section class="section ${ classes }">
+      <div class="container-fluid">
+        ${ layout }
+      </div>
     </section>
   `)
 }

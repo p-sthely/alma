@@ -1,22 +1,69 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .section {
+  display: flex;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   
   &-first {
     background-size: cover;
-    background-image: url('https://preview.naapo.net/alma/wp-content/uploads/2020/07/intro-alma.jpg');
+    background-image: url('https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg');
     min-height: 50vh;
     
-    .content {
+    .container-fluid {
       display: flex;
       flex-direction: column;
+      flex-grow: 1;
       justify-content: center;
       align-items: center;
-      width: 100%;
-      flex-grow: 1;
-      background-color: rgba(0,0,0,.6);
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      background-color: #000;
+      opacity: .7;
+      color: var(--bs-light);
+      text-align: center;
+    }
+  }
+  
+  &-second {
+  
+    .container-fluid {
+      display: flex;
+      flex-direction: column;
       
-      h2 {
-        font-size: calc(var(--bs-body-font-size) * 4 );
+      @media ( min-width: 768px ) {
+        flex-direction: row;
+        
+        h2, p {
+          width: 50%;
+        }
+      }
+    }
+  }
+  
+  &-third {
+    
+    .container-fluid {
+      display: flex;
+      flex-direction: column;
+      
+      @media ( min-width: 768px ) {
+        flex-direction: row;
+        
+        h2, p {
+          width: 50%;
+        }
       }
     }
   }
 }
+
