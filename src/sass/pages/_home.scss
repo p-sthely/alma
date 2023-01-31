@@ -40,6 +40,10 @@
       display: flex;
       flex-direction: column;
       
+      h2 {
+        margin-bottom: 2rem;
+      }
+      
       @media ( min-width: 768px ) {
         flex-direction: row;
         max-width: 992px;
@@ -56,6 +60,10 @@
     .container-fluid {
       display: flex;
       flex-direction: column;
+      
+      h2 {
+        margin-bottom: 2rem;
+      }
       
       @media ( min-width: 768px ) {
         flex-direction: row;
