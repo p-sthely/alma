@@ -1,7 +1,7 @@
-export default function Paragraph ( props ) {
+export default function Paragraph ( classes, props ) {
   
   return (`
-    <p>${ props }</p>
+    <p class="${ classes }">${ props }</p>
   `)
 }
 

@@ -1,7 +1,7 @@
-export default function Title ( props ) {
+export default function Title ( classes, props ) {
   
   return (`
-    <h2>${ props }</h2>
+    <h2 class="${ classes }">${ props }</h2>
   `)
 }
 
